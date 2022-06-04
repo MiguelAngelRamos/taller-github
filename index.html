@@ -53,6 +53,96 @@
   </nav>
   <!-- /Navbar-->
 
+  <!-- Contenedor y Carousel -->
+  <div class="container mt-2">
+
+    <div class="col-sm-10 offset-sm-1 carousel slide carousel-fade" id="mi-carousel" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active" data-bs-interval="1000">
+          <div class="carousel-caption">
+            <h5>Mascotas Favoritas</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum laudantium saepe non totam hic omnis mollitia delectus, dignissimos minus impedit perferendis est tempora? Magni porro voluptatibus culpa recusandae cupiditate optio.</p>
+          </div>
+          <img class="img-fluid" src="img/mascota5.jpeg" alt="gatito regalón">
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <div class="carousel-caption">
+            <h5>Perrito y su plato de agua</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum laudantium saepe non totam hic omnis mollitia delectus, dignissimos minus impedit perferendis est tempora? Magni porro voluptatibus culpa recusandae cupiditate optio.</p>
+          </div>
+          <img class="img-fluid" src="img/mascota6.jpg" alt="perrito y su plato de agua">
+        </div>
+
+        <div class="carousel-item">
+          <div class="carousel-caption">
+            <h5>Gatito Atento</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum laudantium saepe non totam hic omnis mollitia delectus, dignissimos minus impedit perferendis est tempora? Magni porro voluptatibus culpa recusandae cupiditate optio.</p>
+          </div>
+          <img class="img-fluid" src="img/mascota7.jpg" alt="gatito atento">
+        </div>
+
+      </div>
+
+      <!-- Controladores-->
+      <button class="carousel-control-prev" type="button" data-bs-target="#mi-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+        <!-- esto va quedar oculto, lo va poder leer sistemas de voz, para personas no videntes.-->
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#mi-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+        <!-- esto va quedar oculto, lo va poder leer sistemas de voz, para personas no videntes.-->
+      </button>
+      <!-- /Controladores -->
+      <!-- Indicadores-->
+        <div class="carousel-indicators">
+        <button 
+          type="button"
+          class="active" 
+          data-bs-target="#mi-carousel"
+          data-bs-slide-to="0"
+          aria-label="Slide 1"
+          >
+        </button>
+
+        <button 
+          type="button" 
+          data-bs-target="#mi-carousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+          >
+        </button>
+
+        <button 
+          type="button" 
+          data-bs-target="#mi-carousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+          >
+        </button>
+
+        <button 
+          type="button" 
+          data-bs-target="#mi-carousel"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        >
+      </button>
+
+        </div>
+      <!-- /Indicadores-->
+    </div>
+
+  </div>
+  <!-- /Contenedor y Carousel-->
+
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
